@@ -77,5 +77,10 @@ public class ContactDTO {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+    @Override
+    public String toString() {
+        return "ContactDTO [First Name =" + firstName + ", Last Name =" + lastName + ", Address =" + address
+                + ", State =" + state + ", City =" + city + ", Zip =" + zip + ", Phone =" + phone + "]";
+    }
 
 }
