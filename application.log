@@ -1,0 +1,4 @@
+2021-12-19 12:34:32.170  INFO 11248 --- [restartedMain] c.b.a.AddressBookSpringApplication       : Starting AddressBookSpringApplication using Java 11.0.2 on LAPTOP-0AN5L754 with PID 11248 (C:\Users\srika\Downloads\addressbookspring\addressbookspring\target\classes started by srika in C:\Users\srika\Downloads\addressbookspring\addressbookspring)
+2021-12-19 12:34:32.172 DEBUG 11248 --- [restartedMain] c.b.a.AddressBookSpringApplication       : Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-19 12:34:32.173  INFO 11248 --- [restartedMain] c.b.a.AddressBookSpringApplication       : No active profile set, falling back to default profiles: default
+2021-12-19 12:34:37.645  WARN 11248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
