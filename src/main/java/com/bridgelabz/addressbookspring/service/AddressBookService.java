@@ -10,7 +10,8 @@ import java.util.List;
 
 @Service
 public class AddressBookService implements IAddressBookService {
-	List<Contact> contactList = new ArrayList<>();
+
+    List<Contact> contactList = new ArrayList<>();
 
     @Override
     public List<Contact> getContact() {
@@ -46,6 +47,7 @@ public class AddressBookService implements IAddressBookService {
 
     @Override
     public void deleteContact(int contactId) {
+
         contactList.remove(contactId-1);
     }
 }
