@@ -81,6 +81,6 @@ public class ContactDTO {
     public String toString() {
         return "ContactDTO [First Name =" + firstName + ", Last Name =" + lastName + ", Address =" + address
                 + ", State =" + state + ", City =" + city + ", Zip =" + zip + ", Phone =" + phone + "]";
-    }
+    } 
 
 }
